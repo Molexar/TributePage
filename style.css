@@ -1,0 +1,86 @@
+@import url('https://fonts.googleapis.com/css?family=ZCOOL+QingKe+HuangYou');
+@import url('https://fonts.googleapis.com/css?family=Poppins');
+@import url('https://fonts.googleapis.com/css?family=Open+Sans:400,400i');
+@import url('https://fonts.googleapis.com/css?family=Indie+Flower');
+body{
+	margin: 0;
+	padding: 0;
+	background-color: #FFFFFF;
+	color: #03A9F4;
+}
+#main{
+	display: flex;
+	justify-content: center;
+	flex-direction: column;
+}
+#title{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-direction: column;
+	height: 150px;
+	width: 100%;
+	margin: 50px 0;
+	background-color: #d3d3d3;
+}
+#name{
+	font-size: 30pt;
+	font-family: 'ZCOOL QingKe HuangYou';
+}
+#frase{
+	font-size: 15pt;
+	margin-top: 20px;
+	font-family: 'Open Sans';
+}
+#img-div{
+	display: flex;
+	justify-content: center;
+	flex-direction: column;
+	align-items: center;
+}
+#image{
+	max-width: 600px;
+	height: auto;
+}
+
+#description{
+	margin-top: 20px;
+	font-family: 'Open Sans';
+	font-size: 13pt;
+	text-align: center;
+}
+#tribute-info{
+	display: flex;
+	justify-content: center;
+	flex-direction: column;
+	align-items: center;
+	font-family: 'Open Sans';
+}
+#wrapper{
+	background-color: #d3d3d3;
+	width: 100%;
+	font-size: 13pt;
+	display: flex;
+	justify-content: center;
+	flex-direction: column;
+	align-items: center;
+}
+#citation{
+	font-family: 'Indie Flower';
+}
+#link{
+	text-align: center;
+}
+@media (max-width: 600px){
+	#image{
+		width: 320px;
+		height: auto;
+	}
+	#title{
+		margin: 0;
+		margin-bottom: 20px;
+	}
+}
+@media (max-width: 320px){
+	#title{margin-bottom: 0;}
+}
